@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="VirtualSchool.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table style="font-family:Arial">
+    <tr>
+        <td colspan="2" style="width:800px; height:80px; background-color:#3399FF; 
+            text-align:center">
+            <h1>
+               VirtualSchool(TM)
+            </h1>
+        </td>
+    </tr>
+    <tr>
+        <td style="height:500px; background-color:#66FFFF; width:150px">
+            <h3>Menu</h3>
+            <a href="Registration.aspx">Registration Page</a><br />
+            <a href="Login.aspx">Login Page</a><br />
+            <a href="About.aspx">About Us</a><br />
+
+        </td>
+        <td style="height:500px; background-color:#9999FF; width:650px">
+             <h3></h3>
+             
+             <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+               
+                 <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="background-color:#3399FF; text-align:center">
+            <b>©VirtualSchool(TM) (2014-15)</b>
+        </td>
+    </tr>
+</table>
+
+
+
+    </form>
+</body>
+</html>
+
+
+
+
+
+

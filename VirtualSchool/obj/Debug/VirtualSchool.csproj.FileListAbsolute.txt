@@ -1,0 +1,5 @@
+c:\users\optimus prime\documents\visual studio 2010\Projects\VirtualSchool\VirtualSchool\bin\VirtualSchool.dll
+c:\users\optimus prime\documents\visual studio 2010\Projects\VirtualSchool\VirtualSchool\bin\VirtualSchool.pdb
+c:\users\optimus prime\documents\visual studio 2010\Projects\VirtualSchool\VirtualSchool\obj\Debug\VirtualSchool.dll
+c:\users\optimus prime\documents\visual studio 2010\Projects\VirtualSchool\VirtualSchool\obj\Debug\VirtualSchool.pdb
+C:\Users\Optimus Prime\documents\visual studio 2010\Projects\VirtualSchool\VirtualSchool\obj\Debug\VirtualSchool.csprojResolveAssemblyReference.cache
